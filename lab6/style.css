@@ -1,0 +1,18 @@
+a{background-color:brown;
+    color:white;
+    padding:2rem;
+    display:inline-block;}
+
+a:hover{
+    color:brown;
+    background-color:burlywood;
+}
+
+body{
+background-image:url(images/newgirlbackground.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+background-position: bottom 30px;
+}
+.jessicaday{width:50%;}
+
