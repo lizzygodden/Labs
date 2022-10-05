@@ -1,5 +1,5 @@
 body{
-    font-size: Times New Roman, Times, Serif;
+    font-size: Times New Roman, Times, Serif;/*Should be font-family, not size*/
     margin:0;
 }
 header{
@@ -33,11 +33,12 @@ header>nav>a:hover{
     background-color: #275218;
     color: #fff;
     border: 1px solid #fff;
+    /*Missing }*/
 main{
     background-color: #ebebeb;
     padding: 1rem;
     max-width: 60rem;
-    margin: 1 rem auto;
+    margin: 1 rem auto;/*Delete the space between 1 and rem*/
 }
 h2{
     background-color: #275218;
