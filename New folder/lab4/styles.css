@@ -7,11 +7,9 @@ body{
 header{
     background-color:rgb(25,64,100);
     padding:2rem;
-}
-header a{
-    color:rgb(66,211,221);
-}
-header{text-align:center}
+        display: flex;
+justify-content: flex-end;
+    }
 main{
     padding:1rem;
 }
