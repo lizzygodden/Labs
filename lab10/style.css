@@ -21,7 +21,6 @@ header{
     color:white;
     text-align: center;
     position: relative;
-    max-height: 8rem;
 }
 nav>a{
     color:white;
@@ -40,9 +39,12 @@ nav>a{
 }
 header img{
     width:40%;
+    max-width:20rem;
 }
-nav{
+
+@media(min-width:960px){nav{
     position: absolute;
     left:0;
-    top:0;
-}
+    top:calc(50% - 41px);
+}}
+section{border-bottom: 2rem solid #FCB040;}
