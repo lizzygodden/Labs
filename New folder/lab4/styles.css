@@ -7,8 +7,8 @@ body{
 header{
     background-color:rgb(25,64,100);
     padding:2rem;
-        display: flex;
-justify-content: flex-end;
+        display: flex;/*Delete this*/
+justify-content: flex-end;/*Delete this*/
     }
 main{
     padding:1rem;
