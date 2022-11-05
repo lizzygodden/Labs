@@ -7,8 +7,7 @@ body{
 header{
     background-color:rgb(25,64,100);
     padding:2rem;
-        display: flex;/*Delete this*/
-justify-content: flex-end;/*Delete this*/
+    text-align: center;
     }
 main{
     padding:1rem;
@@ -26,3 +25,7 @@ main{
 img{max-width: 100%;}
 .whales {width: 46%;}
 .creatures {width: 29%;}
+
+a{
+    color:rgb(66,211,221)
+}
