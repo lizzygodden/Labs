@@ -1,8 +1,0 @@
-nav>a {
-    transition-property:none;
-    transition-duration: .2s;
-    transition-timing-function: ease-in-out;
-}
-.sidenav>a {
-margin: 1;
-}
