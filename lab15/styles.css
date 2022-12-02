@@ -28,9 +28,9 @@ body{background-color: rgb(9, 2, 29);
     .planet{animation: rise 10s ease-in 1;}
     @keyframes rise {
     from{bottom: 0;
-    transform: rotate(0 scale 1);}
+    transform: rotate(0 scale 1);}/*Need a parentheses after the 0 and before the 1.*/
     to{bottom: 75%;
-    transform: rotate(180deg scale 2);}
+    transform: rotate(180deg scale 2);}/*Need a parentheses after deg and before the 2.*/
     }
     .planet{animation-fill-mode: forwards;
     left: 30%;}
@@ -55,7 +55,7 @@ body{background-color: rgb(9, 2, 29);
     }
     .target{
         padding-left: 35%;
-        padding-top: 60;
+        padding-top: 60;/*Missing a unit*/
     animation: target;
     animation-duration: .1s;
     animation-timing-function: ease-in;
