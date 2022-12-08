@@ -1,0 +1,82 @@
+body{
+    background-color: #1c2541;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+img{
+    max-width:100%;
+}
+.social img{
+    height:2rem;
+    margin: .25rem;
+}
+.hamburger{
+    width:40px;
+    padding:.5rem;
+}
+.hamburger hr{
+    margin:.75rem 0;
+    border:2px solid white;
+}
+header nav{
+    background-color: #0b132b;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header nav a{
+    display: block;
+    color:#00e3c8;
+    text-align: center;
+    text-decoration: none;
+    padding: 3rem;
+    border: 1px solid #5bc0b4;
+}
+header nav{
+    left:100%;
+}
+header{
+    display: flex;
+    SOMETHING MORE HERE;
+}
+header nav.show{
+    left:0;
+}
+header nav{
+    transition-property: left;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    top:4.75rem;
+}
+.overlay{
+    width:100%;
+    height:100%;
+    top:4.75rem;
+    position: fixed;
+    background-color: #0b132b65;
+    TRANSITION HERE;
+    left:100%;
+}
+.overlay.show{
+    left:0;
+}
+.parallax{
+    position: fixed;
+    width:150%;
+    top:0;
+    z-index: -1;
+}
+header{
+    background-color: #0b132b85;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    width:100%;
+}
+.call-to-action{
+    padding: 6rem 1rem 3rem;
+}
+call-to-action h2{
+    font-size:3rem;
+}
